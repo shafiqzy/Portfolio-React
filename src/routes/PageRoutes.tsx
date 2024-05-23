@@ -1,7 +1,7 @@
-import { Layout } from "src/component/Layout/Layout";
+import { Layout } from "../component/Layout/Layout";
 import { Route, Switch } from "wouter";
 // import { ProtectedRoute } from "./ProtectedRoute";
-import { DashboardPage } from "src/pages/DashboardPage/DashboardPage";
+import { DashboardPage } from "../pages/DashboardPage/DashboardPage";
 
 export const PageRoutes = () => {
   return (

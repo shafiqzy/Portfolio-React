@@ -5,8 +5,7 @@ function App() {
   return (
     <div>
       <Header />
-      <div className="container mx-auto p-4">
-        <h1 className="text-3xl font-bold">Main Content</h1>
+      <div className="container mx-auto p-4 lg:pt-7">
         <PageRoutes />
       </div>
     </div>

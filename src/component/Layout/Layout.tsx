@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
 import { useRoute } from "wouter";
-import { BaseLayout } from "src/component/Layout/BaseLayout";
+import { BaseLayout } from "./BaseLayout";
 
 export const Layout = ({ children }: PropsWithChildren) => {
   //   const [matchLogin] = useRoute("/login/*");
