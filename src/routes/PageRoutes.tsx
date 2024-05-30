@@ -8,7 +8,7 @@ import { AboutPage } from "src/pages/AboutPage/AboutPage";
 
 export const PageRoutes = () => {
   return (
-    <Router>
+    <Router base="/Portfolio-React">
       <Layout>
         <Switch>
           <Route path={ROUTE.base}>
