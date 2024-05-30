@@ -1,5 +1,8 @@
 // NavigationBar.tsx
 
+import { ROUTE } from "src/constant";
+import { Link } from "wouter";
+
 export const Header = () => {
   return (
     <nav className="bg-gray-800 p-4">
@@ -22,18 +25,18 @@ export const Header = () => {
           </button>
         </div>
         <div className="hidden md:flex items-center space-x-4">
-          <a
-            href="#"
+          <Link
+            to={ROUTE.base}
             className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
           >
             Home
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to={ROUTE.about}
             className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
           >
             About
-          </a>
+          </Link>
           <a
             href="#"
             className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium"
