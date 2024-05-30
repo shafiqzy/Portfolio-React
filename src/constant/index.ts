@@ -5,3 +5,10 @@ export enum STORAGE_KEY {
   DATE = "NOp5qRst",
   TOKEN = "UV6wXyZ7",
 }
+
+export enum ROUTE {
+  base = "/",
+  about = "/about",
+  services = "/services",
+  contacct = "/contact",
+}

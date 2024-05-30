@@ -5,7 +5,7 @@ import { useLocation } from "wouter";
 
 type ProtectedRouteProps = { redirectPath?: string } & PropsWithChildren;
 export const ProtectedRoute = ({
-  redirectPath = "~/login",
+  redirectPath = "~/",
   children,
 }: ProtectedRouteProps) => {
   const [, nav] = useLocation();
